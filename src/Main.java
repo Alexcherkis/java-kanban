@@ -53,5 +53,7 @@ public class Main {
         manager.deleteEpic(epicId);
         System.out.println("\nИстория после удаления эпика 1 и подзадач:");
         manager.getHistory().forEach(System.out::println);
+        // Ветка sprint_6-solution для сдачи
+
     }
 }
